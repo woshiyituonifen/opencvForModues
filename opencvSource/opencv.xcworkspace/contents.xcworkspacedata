@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:opencvSource/opencvSource.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:opecvAPP2/opecvAPP2.xcodeproj">
+   </FileRef>
+</Workspace>

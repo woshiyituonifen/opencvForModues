@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB888D7230F7F77009169A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB888D6230F7F77009169A9 /* AppDelegate.m */; };
+		CBB888DA230F7F77009169A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB888D9230F7F77009169A9 /* ViewController.m */; };
+		CBB888DD230F7F77009169A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB888DB230F7F77009169A9 /* Main.storyboard */; };
+		CBB888DF230F7F7B009169A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB888DE230F7F7B009169A9 /* Assets.xcassets */; };
+		CBB888E2230F7F7B009169A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB888E0230F7F7B009169A9 /* LaunchScreen.storyboard */; };
+		CBB888E5230F7F7B009169A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB888E4230F7F7B009169A9 /* main.m */; };
+		CBB889A5230F8742009169A9 /* opencvSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB889A4230F8742009169A9 /* opencvSource.framework */; };
+		CBB889A8230F87A8009169A9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB889A7230F87A8009169A9 /* Accelerate.framework */; };
+		CBB889AA230F87B3009169A9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB889A9230F87B3009169A9 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBB888D2230F7F77009169A9 /* opecvAPP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opecvAPP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB888D5230F7F77009169A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBB888D6230F7F77009169A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBB888D8230F7F77009169A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBB888D9230F7F77009169A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBB888DC230F7F77009169A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBB888DE230F7F7B009169A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBB888E1230F7F7B009169A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBB888E3230F7F7B009169A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB888E4230F7F7B009169A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBB889A4230F8742009169A9 /* opencvSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencvSource.framework; sourceTree = "<group>"; };
+		CBB889A7230F87A8009169A9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CBB889A9230F87B3009169A9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB888CF230F7F77009169A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB889AA230F87B3009169A9 /* libc++.tbd in Frameworks */,
+				CBB889A8230F87A8009169A9 /* Accelerate.framework in Frameworks */,
+				CBB889A5230F8742009169A9 /* opencvSource.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB888C9230F7F77009169A9 = {
+			isa = PBXGroup;
+			children = (
+				CBB888D4230F7F77009169A9 /* opecvAPP2 */,
+				CBB888D3230F7F77009169A9 /* Products */,
+				CBB889A6230F87A8009169A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB888D3230F7F77009169A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB888D2230F7F77009169A9 /* opecvAPP2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB888D4230F7F77009169A9 /* opecvAPP2 */ = {
+			isa = PBXGroup;
+			children = (
+				CBB889A4230F8742009169A9 /* opencvSource.framework */,
+				CBB888D5230F7F77009169A9 /* AppDelegate.h */,
+				CBB888D6230F7F77009169A9 /* AppDelegate.m */,
+				CBB888D8230F7F77009169A9 /* ViewController.h */,
+				CBB888D9230F7F77009169A9 /* ViewController.m */,
+				CBB888DB230F7F77009169A9 /* Main.storyboard */,
+				CBB888DE230F7F7B009169A9 /* Assets.xcassets */,
+				CBB888E0230F7F7B009169A9 /* LaunchScreen.storyboard */,
+				CBB888E3230F7F7B009169A9 /* Info.plist */,
+				CBB888E4230F7F7B009169A9 /* main.m */,
+			);
+			path = opecvAPP2;
+			sourceTree = "<group>";
+		};
+		CBB889A6230F87A8009169A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB889A9230F87B3009169A9 /* libc++.tbd */,
+				CBB889A7230F87A8009169A9 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB888D1230F7F77009169A9 /* opecvAPP2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB888E8230F7F7B009169A9 /* Build configuration list for PBXNativeTarget "opecvAPP2" */;
+			buildPhases = (
+				CBB888CE230F7F77009169A9 /* Sources */,
+				CBB888CF230F7F77009169A9 /* Frameworks */,
+				CBB888D0230F7F77009169A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opecvAPP2;
+			productName = opecvAPP2;
+			productReference = CBB888D2230F7F77009169A9 /* opecvAPP2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB888CA230F7F77009169A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = linkface;
+				TargetAttributes = {
+					CBB888D1230F7F77009169A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CBB888CD230F7F77009169A9 /* Build configuration list for PBXProject "opecvAPP2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBB888C9230F7F77009169A9;
+			productRefGroup = CBB888D3230F7F77009169A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB888D1230F7F77009169A9 /* opecvAPP2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB888D0230F7F77009169A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB888E2230F7F7B009169A9 /* LaunchScreen.storyboard in Resources */,
+				CBB888DF230F7F7B009169A9 /* Assets.xcassets in Resources */,
+				CBB888DD230F7F77009169A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB888CE230F7F77009169A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB888DA230F7F77009169A9 /* ViewController.m in Sources */,
+				CBB888E5230F7F7B009169A9 /* main.m in Sources */,
+				CBB888D7230F7F77009169A9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBB888DB230F7F77009169A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB888DC230F7F77009169A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBB888E0230F7F7B009169A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB888E1230F7F7B009169A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB888E6230F7F7B009169A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBB888E7230F7F7B009169A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBB888E9230F7F7B009169A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X8X783E56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/opecvAPP2",
+				);
+				INFOPLIST_FILE = opecvAPP2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkface.opecvAPP2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBB888EA230F7F7B009169A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X8X783E56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/opecvAPP2",
+				);
+				INFOPLIST_FILE = opecvAPP2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkface.opecvAPP2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB888CD230F7F77009169A9 /* Build configuration list for PBXProject "opecvAPP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB888E6230F7F7B009169A9 /* Debug */,
+				CBB888E7230F7F7B009169A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB888E8230F7F7B009169A9 /* Build configuration list for PBXNativeTarget "opecvAPP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB888E9230F7F7B009169A9 /* Debug */,
+				CBB888EA230F7F7B009169A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB888CA230F7F77009169A9 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module opencvSource {
+  umbrella header "opencvSource.h"
+
+  export *
+  module * { export * }
+}
